@@ -1,0 +1,51 @@
+
+•
+java:S1104"RMake LOGGER a static final constant or non-public and provide accessors if needed.(˜èüè8ˆ‘„Ïù1J$89227d58-2d97-478c-8e70-879da0d2ecc8
+™
+java:S1104"VMake SQL_INSERT a static final constant or non-public and provide accessors if needed.(°ºÍ8ˆ‘„Ïù1J$012687b1-e2e6-462f-9cba-aedd375e7c5b
+™
+java:S1104"VMake SQL_SELECT a static final constant or non-public and provide accessors if needed.(ªùÄ8ˆ‘„Ïù1J$61c2f60d-337a-4881-b979-de89006f6568
+œ
+java:S1104"YMake SQL_SELECT_ID a static final constant or non-public and provide accessors if needed.( ´Å8ˆ‘„Ïù1J$87faf640-9f2d-4eba-9028-8b280b3ae791
+Ÿ
+java:S1104"\Make SQL_SELECT_TODOS a static final constant or non-public and provide accessors if needed.(ÕâüŒ8ˆ‘„Ïù1J$69b96e8a-3da0-4c74-ae41-540c6673ecd1
+o
+java:S1444",Make this "public static LOGGER" field final(˜èüè8Š‘„Ïù1J$ace1c056-9fbd-480e-9656-0b335df30e8e
+s
+java:S1444"0Make this "public static SQL_INSERT" field final(°ºÍ8Š‘„Ïù1J$293cbf4e-7c5f-4085-b783-9a1d8c126c3e
+s
+java:S1444"0Make this "public static SQL_SELECT" field final(ªùÄ8Š‘„Ïù1J$a1f4fb76-52e3-46cd-aabf-baaf7d0aa130
+v
+java:S1444"3Make this "public static SQL_SELECT_ID" field final( ´Å8Š‘„Ïù1J$d507e10b-fd25-4844-b567-09bc3df54f45
+y
+java:S1444"6Make this "public static SQL_SELECT_TODOS" field final(ÕâüŒ8Š‘„Ïù1J$11c93212-623a-44ef-81ab-4268e39b02d8
+‹
+java:S2259}"HA "NullPointerException" could be thrown; "connection" is nullable here.(ôêÂœ8„›„Ïù1J$ec23b742-31d4-41a2-90ed-5090a622f700
+‹
+java:S2259["HA "NullPointerException" could be thrown; "connection" is nullable here.(ôêÂœ8…›„Ïù1J$14bc34dc-65b8-466a-aafb-654e53560f58
+Œ
+java:S2259£"HA "NullPointerException" could be thrown; "connection" is nullable here.(ôêÂœ8…›„Ïù1J$6e276d33-378f-464d-9cae-d87769cb3edf
+—
+java:S2095j"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(±£Âòıÿÿÿÿ8†›„Ïù1J$13da70e9-841a-43d5-a815-acfe0a922d3a
+—
+java:S2095G"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚Êõúÿÿÿÿ8†›„Ïù1J$22176c30-ab3b-44f2-a44f-561ddefca3dd
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8†›„Ïù1J$eb8c4d28-89bf-4a25-a73a-ba26a6d2ecaa
+’
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Šúá”8†›„Ïù1J$46f71f8c-f85e-4ac6-a088-41a80d34fbb6
+”
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜èüè8‡›„Ïù1J$4afafc8e-0a03-49f2-8b4d-7bab1a43da17
+˜
+java:S3008"URename this field "SQL_INSERT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ºÍ8‡›„Ïù1J$6719f2ce-4c09-4062-9097-30c1f3715a7c
+˜
+java:S3008"URename this field "SQL_SELECT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªùÄ8‡›„Ïù1J$776e4e86-7d6e-49d2-886e-a4a5e3afcbfc
+›
+java:S3008"XRename this field "SQL_SELECT_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ´Å8‡›„Ïù1J$0005666d-1d3a-4c25-b763-ff6e4decbff9
+
+java:S3008"[Rename this field "SQL_SELECT_TODOS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕâüŒ8‡›„Ïù1J$a0f24877-2029-4334-98fa-ff31a15808bb
+b
+java:S6905"Don't use the query "SELECT *".(ªùÄ8—›„Ïù1J$c19633d0-0949-4a07-855f-1bddc2824564
+b
+java:S6905"Don't use the query "SELECT *".( ´Å8œ›„Ïù1J$d22cebd6-f86a-4a62-83f1-b79476bf1ac7
+b
+java:S6905"Don't use the query "SELECT *".(ÕâüŒ8¤›„Ïù1J$eb28c472-3fc7-43e6-b673-047ce5764107

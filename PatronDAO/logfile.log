@@ -1,0 +1,54 @@
+[2024-05-16 21:02:39] [ ERROR] [MedicamentoServiceTest:25] No suitable driver found for jdbc:h2~/PatronDAO;INIT=RUNSCRIPT from 'create.sql'
+[2024-05-16 21:03:53] [ ERROR] [MedicamentoIDaoH2:52] No suitable driver found for jdbc:h2~/clase10medicamentos
+[2024-05-16 21:04:19] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOSVALUES" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOSVALUES(DEFAULT, ?, ?, ? ,? ,?); [42104-214]
+[2024-05-16 21:04:23] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOSVALUES" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOSVALUES(DEFAULT, ?, ?, ? ,? ,?); [42104-214]
+[2024-05-16 21:04:48] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES(DEFAULT, ?, ?, ? ,? ,?); [42104-214]
+[2024-05-16 21:07:20] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES(DEFAULT, ?, ?, ? ,?); [42104-214]
+[2024-05-16 21:08:45] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES(DEFAULT, ?, ?, ? ,?, ?); [42104-214]
+[2024-05-16 21:11:09] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES(DEFAULT, ?, ?, ? ,?, ?); [42104-214]
+[2024-05-16 21:54:30] [ ERROR] [MedicamentoIDaoH2:52] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES(DEFAULT, ?, ?, ? ,?, ?); [42104-214]
+[2024-05-16 21:56:06] [ ERROR] [MedicamentoIDaoH2:51] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES (DEFAULT, ?, ?, ? ,?, ?); [42104-214]
+[2024-05-16 22:02:43] [ ERROR] [MedicamentoIDaoH2:48] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES (DEFAULT, ?, ?, ? ,?, ?); [42104-214]
+[2024-05-16 22:15:05] [ ERROR] [MedicamentoIDaoH2:48] Table "MEDICAMENTOS" not found (this database is empty); SQL statement:
+INSERT INTO MEDICAMENTOS VALUES (DEFAULT, ?, ?, ? ,?, ?); [42104-214]
+[2024-05-16 23:22:24] [ INFO ] [MedicamentoIDaoH2:35] Medicamento persistido = Medicamentoid=1, codigo=1234, nombre='Covid 19', laboratorio='Pfizer', cantidad=30, precio=500.0
+[2024-05-20 22:22:27] [ INFO ] [MedicamentoIDaoH2:35] Medicamento persistido = Medicamentoid=1, codigo=1234, nombre='Covid 19', laboratorio='Pfizer', cantidad=30, precio=500.0
+[2024-05-20 22:24:44] [ ERROR] [MedicamentoServiceTest:25] Columna "Moderna" no encontrada
+Column "Moderna" not found; SQL statement:
+
+
+INSERT INTO MEDICAMENTOS
+VALUES (DEFAULT, 567, 'Covid 19', "Moderna", 12, 2500) [42122-214]
+[2024-05-20 22:25:29] [ INFO ] [MedicamentoIDaoH2:35] Medicamento persistido = Medicamentoid=2, codigo=1234, nombre='Covid 19', laboratorio='Pfizer', cantidad=30, precio=500.0
+[2024-05-20 22:33:37] [ INFO ] [MedicamentoIDaoH2:35] Medicamento persistido = Medicamentoid=2, codigo=1234, nombre='Covid 20', laboratorio='Pfizer', cantidad=30, precio=500.0
+[2024-05-20 22:33:58] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:34:47] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:34:55] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:35:59] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:36:26] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:36:47] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:39:40] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:40:06] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:41:23] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:48:10] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:49:40] [ INFO ] [MedicamentoIDaoH2:35] Medicamento persistido = Medicamentoid=2, codigo=1234, nombre='Covid 20', laboratorio='Pfizer', cantidad=30, precio=500.0
+[2024-05-20 22:49:51] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:50:54] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:51:04] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: null
+[2024-05-20 22:53:41] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: Medicamentoid=1, codigo=567, nombre='COVID-19', laboratorio='MODERNA', cantidad=12, precio=2500.0
+[2024-05-20 22:54:03] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: Medicamentoid=1, codigo=567, nombre='COVID-19', laboratorio='MODERNA', cantidad=12, precio=2500.0
+[2024-05-20 22:55:12] [ INFO ] [MedicamentoIDaoH2:80] El medicamento encontrado es: Medicamentoid=1, codigo=567, nombre='COVID-19', laboratorio='MODERNA', cantidad=12, precio=2500.0
+[2024-05-20 22:56:09] [ INFO ] [MedicamentoIDaoH2:81] El medicamento encontrado es: Medicamentoid=1, codigo=567, nombre='COVID-19', laboratorio='MODERNA', cantidad=12, precio=2500.0
+[2024-05-20 22:57:27] [ INFO ] [MedicamentoIDaoH2:81] El medicamento encontrado es: Medicamentoid=1, codigo=567, nombre='COVID-19', laboratorio='MODERNA', cantidad=12, precio=2500.0
+[2024-05-21 03:48:54] [ INFO ] [MedicamentoIDaoH2:154] Medicamento devuelto: Medicamentoid=1, codigo=567, nombre='COVID-19', laboratorio='MODERNA', cantidad=12, precio=2500.0
+[2024-05-21 03:48:54] [ INFO ] [MedicamentoIDaoH2:154] Medicamento devuelto: Medicamentoid=2, codigo=400, nombre='COVID-21', laboratorio='SPUNIK', cantidad=12, precio=3000.0
+[2024-05-21 03:50:43] [ INFO ] [MedicamentoIDaoH2:119] El medicamento encontrado es: Medicamentoid=2, codigo=400, nombre='COVID-21', laboratorio='SPUNIK', cantidad=12, precio=3000.0
